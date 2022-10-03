@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623965792926",
+    "project_id": "appavaliacao-a9658",
+    "storage_bucket": "appavaliacao-a9658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623965792926:android:651ac74d78ad0279f9a98f",
+        "android_client_info": {
+          "package_name": "com.example.appavaliacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623965792926-1jlb1go33b4ko8irnislsoqeh63qsf5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSmMkC8soXjLG1bQhf28IbLOX3Ygqumk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623965792926-1jlb1go33b4ko8irnislsoqeh63qsf5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

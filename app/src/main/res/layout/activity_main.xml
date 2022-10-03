@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cadastre-se"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome completo:"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Endereço:"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edtBairro"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Bairro:"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edtCEP"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="CEP:"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados de ID"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:hint="ID de Usuario: "
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+</LinearLayout>

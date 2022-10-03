@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados de Usuario"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+
+            <EditText
+                android:id="@+id/edtProcurarID"
+                android:hint="ID:"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnProcurar"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="45dp"
+                android:text="Procurar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="DADOS:"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/txtId"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/txtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/txtBairro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/txtCEP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Editar Dados"/>
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Excluir ID"/>
+</LinearLayout>
